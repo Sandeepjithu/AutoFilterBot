@@ -3,19 +3,16 @@ class script(object):
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍</b></i>"""
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
-    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Mrz_bots>Creator</a>
+    ABOUT_TXT = """<b><quote>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/stroker_kidd>𝗠𝗮𝗱𝗼𝘅 💗</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Tᴏɴʏ Sᴛᴀʀᴋ Is Oᴘᴇɴ Pʀᴏᴊᴇᴄᴛ. 
-- Sᴏᴜʀᴄᴇ  - https://github.com/Mrzbots/AutoFilterBot  
-
-<b>DEVS:</b>
-- <a href=https://t.me/Mrz_bots>Creator</a>"""
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: Unknown
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: [ Sᴛᴀʙʟᴇ 𝙱𝙴𝚃𝙰 ]</quote></b>"""
+    
+    SOURCE_TXT = """<b>കൊട്ക്ക്ണില്ല്യാ...</b>"""
+    
     TELEGRAPH = """Reply to any photo or video using by /telegraph that photo telegraph link you will get"""
     TOOLS = """TOOLS:
 
@@ -143,8 +140,9 @@ USAGE:
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> {file_name}"""
+    CAPTION = """<pre>Hi Gentleman 😍 You're File Is Ready,(^_^)</pre>
+<pre>📂 File Name: {file_name}</pre>
+<pre>💾 Size: {file_size}</pre>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
@@ -282,9 +280,11 @@ Added By - {}
 """
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+tony stark 
 📅 Dᴀᴛᴇ : <code>{}</code>
-⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+⏰ Tɪᴍᴇ : <code>{}</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
     
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
