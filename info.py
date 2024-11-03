@@ -21,10 +21,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/5c94a977943ac2b777d93.jpg')).split()
+PICS = (environ.get('PICS', '')).split()
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b860e8d8a234384950587.jpg")
 WVD = environ.get("WVD", "https://telegra.ph/file/b735f93c8eeef4167c6a1.mp4")
-NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/5c94a977943ac2b777d93.jpg")
+NO_IMDB = environ.get("NO_IMDB", "")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -43,12 +43,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # AI
 HORRI_API_KEY = environ.get('HORRI_API_KEY', 'horridapi_Uwk1YJbLSibv2rf88EBPOQ_free_key') # You can get api key here https://t.me/Mrz_bots/222
-BOT_USERNAME = environ.get('BOT_USERNAME', 'TonyStartkRobot')
+BOT_USERNAME = environ.get('BOT_USERNAME', 'tonystarkfilterbot')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'xbotsupports')
-UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/botuptest') # add here your update channel link
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mmwbotzsupport1')
+UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/mk_movies_links') # add here your update channel link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
