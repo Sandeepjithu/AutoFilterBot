@@ -53,9 +53,9 @@ Example: <code> /image Tony stark </code>"""
     STICKER = """ yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ꜰɪɴᴅᴀɴy  ꜱᴛɪᴄᴋᴇʀꜱ ɪᴅ.
 ᴜꜱᴀɢᴇ :ᴛᴏ ɢᴇᴛ ꜱᴛɪᴄᴋᴇʀ
  
-⭕ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
-◉ Reply To Any Sticker [/stickerid]"""
-    TTS = """ Help:  TTS 🎤 module:
+ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
+ Reply To Any Sticker [/stickerid]"""
+    TTS = """ Help:  TTS module:
 Translate text to speech
 Commands and Usage:
 /tts  : convert text to speech"""
@@ -137,7 +137,7 @@ bot supports buttons with any telegram media type.
 
 ᴀʟʟ ᴛʜᴇ ᴩɪɴ ʀᴇᴩʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄᴀɴ ʙᴇ ꜰᴏᴜɴᴅ ʜᴇʀᴇ:
 
-📌ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ📌
+ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ
 
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
@@ -187,7 +187,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  /disconnect  - <code>disconnect from a chat</code>
  /connections - <code>list all your connections</code>"""
     RENDERING_TXT = """
-⚡️ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️
+ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs 
 
 ❂ ʀᴀᴍ ●●●●●●●◌◌◌
 ✇ ᴄᴘᴜ ●●●●●●●◌◌◌
@@ -279,12 +279,10 @@ Total Members = <code>{}</code>
 Added By - {}
 """
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
-@stroker_kidd
+<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ! @stroker_kidd
 Tony Stark 
 📅 Dᴀᴛᴇ : <code>{}</code>
-⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+⏰Tɪᴍᴇ : <code>{}</code></b>"""
     
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
