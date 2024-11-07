@@ -142,16 +142,25 @@ bot supports buttons with any telegram media type.
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> {file_name}"""
+    CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> {file_name}
+
+⚙️ 𝚂𝚒𝚣𝚎» {file_size}
+
+<b>╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+
+💥 𝙅𝙊𝙄𝙉 :- https://t.me/mk_movies_links
+💥 𝙅𝙊𝙄𝙉 :- https://t.me/movies_kottaaram2
+                    
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝ </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+Title: <a href={url}>{title}</a>
+Genres: {genres}
+Year: <a href={url}/releaseinfo>{year}</a>
+Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
 
     FLTERS_TXT = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
