@@ -124,21 +124,20 @@ Jᴜsᴛ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ /feedback"""
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """Hey 👋
-❀Fɪʟᴇ Nᴀᴍᴇ:- {file_name}
+    CAPTION = """❀Fɪʟᴇ Nᴀᴍᴇ:- {file_name}
 ❀Fɪʟᴇ Sɪᴢᴇ:-{file_size}
 ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 
-💥 𝙅𝙊𝙄𝙉 :- https://t.me/mk_movies_links
-💥 𝙅𝙊𝙄𝙉 :- https://t.me/movies_kottaaram2
+ 𝙅𝙊𝙄𝙉 :- https://t.me/mk_movies_links
+ 𝙅𝙊𝙄𝙉 :- https://t.me/movies_kottaaram2
                     
 ╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}</b> \n‌‌‌‌IMDb Data:
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10"""
+ Title: <a href={url}>{title}</a>
+ Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>
+ Rating: <a href={url}/ratings>{rating}</a> / 10"""
 
     FLTERS_TXT = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -174,7 +173,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
     RENDERING_TXT = """
-⚡️ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️
+ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs 
 
 ❂ ʀᴀᴍ ●●●●●●●◌◌◌
 ✇ ᴄᴘᴜ ●●●●●●●◌◌◌
@@ -330,7 +329,7 @@ Added By - {}
 """
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
-
+Tony Stark 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
