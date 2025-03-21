@@ -1128,10 +1128,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴛᴀᴛᴜs ​', callback_data='stats'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ ​', callback_data='source')
         ],[
-            InlineKeyboardButton('🛰 Rᴇɴᴅᴇʀɪɴɢ Iɴғᴏ ☁️', callback_data='rendering_info')
-        ],[            
-            InlineKeyboardButton('© Dɪsᴄʟᴀɪᴍᴇʀ ©', callback_data='dics_btn')
-        ],[
             InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data')
         ]]
@@ -1163,7 +1159,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[     
-            InlineKeyboardButton('Rᴇᴘᴏ', url="https://github.com/Mrzbots/AutoFilterBot"),
             InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1363,7 +1358,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     await query.answer("okda")
 
 
-async def auto_filter(client, msg):
+async def auto_filter(client, msg, spoll=False):
     reqstr1 = msg.from_user.id if msg.from_user else 0
     reqstr = await client.get_users(reqstr1)
     if not spoll:
@@ -1441,8 +1436,15 @@ async def auto_filter(client, msg):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     cap = f"<b>ϙᴜᴇʀʏ ʙʏ :- {message.from_user.mention}\nᴛɪᴛʟᴇ: - {search}\nᴛᴏᴛᴀʟ:- {str(total_results)}\nᴘʀᴏᴠɪᴅᴇ ʙʏ {message.chat.title}</b>"
-    
     perfectok=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(600)
+    await perfectok.delete()
+    dai=await message.reply(f"<b>Hey</b> <i>{message.from_user.first_name}</i>\n\n<b>Your Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+    await asyncio.sleep(100)
+    await dai.delete()
+    
+    if spoll:
+        await msg.message.delete()
     
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
