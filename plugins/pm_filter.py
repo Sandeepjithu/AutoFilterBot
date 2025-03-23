@@ -780,16 +780,16 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     cap = f"<b>ϙᴜᴇʀʏ ʙʏ :- {message.from_user.mention}\nᴛɪᴛʟᴇ: - {search}\nᴛᴏᴛᴀʟ:- {str(total_results)}\nᴘʀᴏᴠɪᴅᴇ ʙʏ {message.chat.title}</b>"
-    perfectok=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        if settings["auto_delete"]:
-            await asyncio.sleep(600)
-            await perfectok.delete()
-            dai=await message.reply(f"<b>Hey</b> <i>{message.from_user.first_name}</i>\n\n<b>Your Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-            await asyncio.sleep(100)
-            await dai.delete()
-        else:
-            return 
-    
+    perfectok = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+    if settings["auto_delete"]:
+        await asyncio.sleep(600)
+        await perfectok.delete()
+        dai = await message.reply(f"<b>Hey</b> <i>{message.from_user.first_name}</i>\n\n<b>Your Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
+        await asyncio.sleep(100)
+        await dai.delete()
+    else:
+        await message.reply("Request completed.")
+
 
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
