@@ -1437,11 +1437,6 @@ async def auto_filter(client, msg, spoll=False):
         )
     cap = f"<b>ϙᴜᴇʀʏ ʙʏ :- {message.from_user.mention}\nᴛɪᴛʟᴇ: - {search}\nᴛᴏᴛᴀʟ:- {str(total_results)}\nᴘʀᴏᴠɪᴅᴇ ʙʏ {message.chat.title}</b>"
     perfectok=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    await asyncio.sleep(600)
-    await perfectok.delete()
-    dai=await message.reply(f"<b>Hey</b> <i>{message.from_user.first_name}</i>\n\n<b>Your Request Has Been Deleted 👍 \n(Due To Avoid Copyrights Issue😌)\n\nIF YOU WANT THAT FILE, REQUEST AGAIN ❤️</b>")
-    await asyncio.sleep(100)
-    await dai.delete()
     
     if spoll:
         await msg.message.delete()
